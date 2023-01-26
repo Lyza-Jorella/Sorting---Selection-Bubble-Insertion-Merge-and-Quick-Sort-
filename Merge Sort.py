@@ -40,9 +40,9 @@ def printList(array):
     print()
 
 if __name__ == '__main__':
-    array = [39, 84, 5, 86, 85, 14, 35, 45, 27, 43]
+    nums = [39, 84, 5, 86, 85, 14, 35, 45, 27, 43]
 
-    mergeSort(array)
+    mergeSort(nums)
 
-    print("Sorted array is: ")
-    printList(array)
+    print("Sorted number is: ")
+    printList(nums)
